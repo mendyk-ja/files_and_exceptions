@@ -1,1 +1,1 @@
-Simple repository fof master working with file and exceptions.
+Simple repository for mastering working with file and exceptions.
