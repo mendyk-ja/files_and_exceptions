@@ -1,4 +1,4 @@
-With Python you can make a loop.
-With Python you can read a file.
-With Python  you can create a Django app.
-With Python you can analyze big data.
+With C you can make a loop.
+With C you can read a file.
+With C  you can create a Django app.
+With C you can analyze big data.
