@@ -6,7 +6,10 @@ for filename in filenames:
         with open(filename) as file_object:
             lines = file_object.readlines()
     except FileNotFoundError:
-        print(f"Sorry, but {filename} file doesn't exist in this directory.")
+        pass
+        # Version without message (silent failure) in below this comment.
+        # Version with message after failure is under this comment.
+        # print(f"Sorry, but {filename} file doesn't exist in this directory.")
     else:
         for line in lines:
             print(line.rstrip())
