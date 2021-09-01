@@ -13,7 +13,7 @@ def get_stored_username():
         return username
 
 
-def  get_new_username():
+def get_new_username():
     """Asking user to give his/her name and then saving it to a file."""
     username = input("What is your name? ")
     filename = 'username.json'
